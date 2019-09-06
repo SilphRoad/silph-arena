@@ -108,7 +108,7 @@ a:hover {
 
 .filters {
   margin: 25px;
-  margin-top: 40px;
+  margin-top: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -142,13 +142,13 @@ a:hover {
 }
 
 .filter-section > .options > label > input:checked + span {
-  color: #E4C049;
-  border-color: #F1CC55;
+  color: orange;
+  border-color: orange;
 }
 
 .filter-section > .options > label > span:hover {
-  color: #F1CC55;
-  border-color: #F1CC55;
+  color: orange;
+  border-color: orange;
 }
 
 .filter-section > .options > label:last-child > span {
