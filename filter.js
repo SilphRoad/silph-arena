@@ -5,7 +5,7 @@ for (let i = 0; i < assetSections.length; i++) {
   assets.push(assetSections[i])
 }
 
-let seasonSelection = 's2'
+let seasonSelection = 's3'
 
 const seasonRadio = document.getElementsByName('season')
 for (let i = 0; i < seasonRadio.length; i++) {
